@@ -22,7 +22,7 @@ const Projects = ({ projects }: Props) => {
           <div
             key={project._id}
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
-            justify-center items-center p-5 md:p-44 h-screen"
+            justify-center items-center p-5 md:pt-28 h-screen"
           >
             <Image
               src={urlForImage(project?.image).url()}
@@ -47,7 +47,7 @@ const Projects = ({ projects }: Props) => {
                   />
                 ))}
               </div>
-              <p className="text-sm text-center md:text-left">
+              <p className="text-sm text-center max-w-[70ch]">
                 {project.summary}
               </p>
               <div className="flex items-center justify-evenly gap-4">
