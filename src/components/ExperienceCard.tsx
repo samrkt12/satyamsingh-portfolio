@@ -21,9 +21,9 @@ function ExperienceCard({ experience }: Props) {
         alt="company-logo"
       />
       <div className="px-0 md:px-10">
-        <h4 className="text-base md:text-lg font-light text-center">
+        <h3 className="text-base md:text-lg font-light text-center">
           {experience?.jobTitle}
-        </h4>
+        </h3>
         <p className="font-bold text-base mt-1 mb-1 text-center">
           {experience?.company}
         </p>

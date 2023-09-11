@@ -57,9 +57,9 @@ const Contact = (props: Props) => {
         Contact
       </h2>
       <div className="flex flex-col space-y-10 mt-10">
-        <h4 className=" text-lg lg:text-xl text-center max-w-[60ch]">
+        <h3 className=" text-lg lg:text-xl text-center max-w-[60ch]">
           {`Whether you want to talk tech, share travel stories, or discuss the latest binge-worthy TV series, I'm all ears.`}
-        </h4>
+        </h3>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col space-y-2 w-fit mx-auto"

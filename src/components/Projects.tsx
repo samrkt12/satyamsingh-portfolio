@@ -32,9 +32,9 @@ const Projects = ({ projects }: Props) => {
               className="w-64 h-32 md:w-96 md:h-48 object-cover"
             />
             <div className="space-y-5 px-0 md:px-6 max-w-6xl">
-              <h4 className="text-center font-semibold text-lg  md:text-xl lg:text-2xl">
+              <h3 className="text-center font-semibold text-lg  md:text-xl lg:text-2xl">
                 {project.title}
-              </h4>
+              </h3>
               <div className="flex items-center space-x-2 justify-center">
                 {project?.technologies.map((tech) => (
                   <Image
