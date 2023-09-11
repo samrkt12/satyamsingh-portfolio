@@ -8,9 +8,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Satyam Singh's Portfolio",
+  title: "Satyam Singh | Developer",
   description:
-    "Discover the intersection of technology and creativity in my portfolio. Explore my work, skills, and experiences. Let's connect and bring your ideas to life.",
+    "Hi! Welcome to my portfolio. I'm Satyam Singh. Discover the intersection of technology and creativity inside. Explore my work, skills, and experiences. Let's connect and bring your ideas to life.",
+  authors: [{ name: "Satyam Singh" }],
 };
 
 export default function RootLayout({
