@@ -17,9 +17,9 @@ const Skills = ({ skills }: Props) => {
       className="min-h-screen flex flex-col justify-center items-center relative text-center 
     md:text-left xl:flex-row max-w-[2000px] xl:px-10 xl:space-y-0 mx-auto"
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl  ">
+      <h2 className="absolute top-20 uppercase tracking-[20px] text-gray-400 text-xl md:text-2xl  ">
         Skills
-      </h3>
+      </h2>
       <div className="absolute top-32 grid grid-cols-3 md:grid-cols-4 gap-x-7 gap-y-5 md:gap-5">
         {skills.map((skill) => (
           <Skill key={skill._id} skill={skill} />

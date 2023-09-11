@@ -14,9 +14,9 @@ const Projects = ({ projects }: Props) => {
       className="h-screen relative flex flex-col overflow-hidden text-left md:flex-row 
     max-w-full justify-evenly items-center mx-auto z-0"
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-xl lg:text-2xl ">
+      <h2 className="absolute top-20 uppercase tracking-[20px] text-gray-400 text-xl lg:text-2xl ">
         Projects
-      </h3>
+      </h2>
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#318ce7]/80">
         {projects.map((project) => (
           <div
@@ -47,7 +47,7 @@ const Projects = ({ projects }: Props) => {
                   />
                 ))}
               </div>
-              <p className="text-sm text-center max-w-[70ch]">
+              <p className="text-sm text-center md:max-w-[70ch]">
                 {project.summary}
               </p>
               <div className="flex items-center justify-evenly gap-4">

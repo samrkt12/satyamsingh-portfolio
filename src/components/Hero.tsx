@@ -48,7 +48,7 @@ const Hero = ({ pageInfo }: Props) => {
         />
       </motion.div>
       <div className="z-20">
-        <h2 className="text-sm md:text-base lg:text-lg uppercase text-gray-500 pb-2 tracking-[6px] md:tracking-[12px]">
+        <h2 className="text-sm md:text-base lg:text-lg uppercase text-gray-400 pb-2 tracking-[6px] md:tracking-[12px]">
           {pageInfo?.role}
         </h2>
         <h1 className="text-lg md:text-2xl lg:text-3xl font-semibold md:px-4">
