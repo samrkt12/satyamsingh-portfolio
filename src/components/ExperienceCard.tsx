@@ -10,7 +10,7 @@ type Props = {
 function ExperienceCard({ experience }: Props) {
   return (
     <article
-      className="flex w-fit flex-col rounded-lg items-center space-y-7 flex-shrink-0
+      className="flex w-fit flex-col rounded-lg items-center space-y-5 flex-shrink-0
      snap-center bg-[#292929] px-4 py-8 md:p-8  overflow-hidden"
     >
       <Image
@@ -33,9 +33,11 @@ function ExperienceCard({ experience }: Props) {
             ? "Present"
             : new Date(experience?.dateEnded).toDateString()}
         </p>
-        <ul className="list-disc space-y-4 ml-3 md:ml-5 text-sm md:text-base">
+        <ul className="list-disc space-y-4 ml-3 md:ml-5 text-sm tracking-wide">
           {experience.points.map((point, i) => (
-            <li key={i}>{point}</li>
+            <li key={i} className="max-w-[55ch]">
+              {point}
+            </li>
           ))}
         </ul>
       </div>
